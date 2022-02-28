@@ -35,6 +35,10 @@ class Backpack {
     this.strapLength.left = lengthLeft;
     this.strapLength.right = lengthRight;
   }
+  changePocketNumber(pocketNum)
+  {
+    this.pocketNum = pocketNum;
+  }
 }
 
 export default Backpack;
